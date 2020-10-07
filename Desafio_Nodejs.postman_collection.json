@@ -1,0 +1,128 @@
+{
+	"id": "350ec62a-81df-2d24-0574-94aa0a768c0c",
+	"name": "Desafio Nodejs",
+	"description": "DesafioNodejs. Need apikey in all headers to all server request .\napikey =  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTkwODM4NDY0LCJleHAiOjE1OTA4Mzg3NjR9.XNQ4mnoQubLB7rQyFQdZqG4Gl9avgWUEwGFxD60iTfc'",
+	"order": [],
+	"folders": [
+		{
+			"name": "API",
+			"description": "",
+			"collectionId": "350ec62a-81df-2d24-0574-94aa0a768c0c",
+			"order": [
+				"b8c795af-019d-cf36-c61b-f3932c8673dd"
+			],
+			"owner": "3978072",
+			"folders_order": [],
+			"id": "16f17204-39b3-cbae-5c05-fda17bf1cdfd"
+		},
+		{
+			"name": "User",
+			"description": "",
+			"collectionId": "350ec62a-81df-2d24-0574-94aa0a768c0c",
+			"order": [
+				"6cc912eb-6e39-2374-4692-4ccac56d5d4d",
+				"ed50bc4b-505b-c3e7-23c6-a75eb0434bd1"
+			],
+			"owner": "3978072",
+			"folders_order": [],
+			"id": "0b9c21d7-f481-bbc1-55cc-6e68b967f085"
+		}
+	],
+	"folders_order": [
+		"16f17204-39b3-cbae-5c05-fda17bf1cdfd",
+		"0b9c21d7-f481-bbc1-55cc-6e68b967f085"
+	],
+	"timestamp": 1601657025151,
+	"owner": "3978072",
+	"public": false,
+	"requests": [
+		{
+			"id": "6cc912eb-6e39-2374-4692-4ccac56d5d4d",
+			"headers": "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTkwODM4NDY0LCJleHAiOjE1OTA4Mzg3NjR9.XNQ4mnoQubLB7rQyFQdZqG4Gl9avgWUEwGFxD60iTfc\n",
+			"headerData": [
+				{
+					"key": "apikey",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTkwODM4NDY0LCJleHAiOjE1OTA4Mzg3NjR9.XNQ4mnoQubLB7rQyFQdZqG4Gl9avgWUEwGFxD60iTfc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/user/save",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "350ec62a-81df-2d24-0574-94aa0a768c0c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Save users server database",
+			"description": "Save users data of api in server database. Get return a json that have contain a attributes \"succes\" with value true or false.",
+			"descriptionFormat": "html",
+			"time": 1601945617820,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0b9c21d7-f481-bbc1-55cc-6e68b967f085"
+		},
+		{
+			"id": "b8c795af-019d-cf36-c61b-f3932c8673dd",
+			"headers": "",
+			"headerData": [],
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "350ec62a-81df-2d24-0574-94aa0a768c0c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Request-rigth-Api",
+			"description": "Request rigth api of list users",
+			"descriptionFormat": "html",
+			"time": 1601945233936,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "16f17204-39b3-cbae-5c05-fda17bf1cdfd"
+		},
+		{
+			"id": "ed50bc4b-505b-c3e7-23c6-a75eb0434bd1",
+			"headers": "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTkwODM4NDY0LCJleHAiOjE1OTA4Mzg3NjR9.XNQ4mnoQubLB7rQyFQdZqG4Gl9avgWUEwGFxD60iTfc\n",
+			"headerData": [
+				{
+					"key": "apikey",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNTkwODM4NDY0LCJleHAiOjE1OTA4Mzg3NjR9.XNQ4mnoQubLB7rQyFQdZqG4Gl9avgWUEwGFxD60iTfc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/consume",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "350ec62a-81df-2d24-0574-94aa0a768c0c",
+			"data": null,
+			"dataMode": "params",
+			"name": "List-Users",
+			"description": "Route that do consumed users data from api \"https://jsonplaceholder.typicode.com/users\". Receives a list of users.",
+			"descriptionFormat": "html",
+			"time": 1601944920803,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "0b9c21d7-f481-bbc1-55cc-6e68b967f085",
+			"isFromCollection": true,
+			"collectionRequestId": "ed50bc4b-505b-c3e7-23c6-a75eb0434bd1"
+		}
+	]
+}

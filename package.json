@@ -1,0 +1,29 @@
+{
+  "name": "desafionodejs",
+  "version": "1.0.0",
+  "description": "teste de nodejs",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node /app/server.js",
+    "nodemon": "nodemon /app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afasystemas/desafionodejs.git"
+  },
+  "author": "André Fernandes Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afasystemas/desafionodejs/issues"
+  },
+  "homepage": "https://github.com/afasystemas/desafionodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.4.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0",
+    "supertest": "^5.0.0"
+  }
+}
